@@ -1,0 +1,13 @@
+#
+# Log view
+#
+
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: prop-development
+  name: log-viewer
+rules:
+- apiGroups: [""]
+  resources: ["pods/log"]
+  verbs: ["get", "list", "watch"]

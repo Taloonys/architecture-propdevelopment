@@ -1,6 +1,6 @@
 # Execution
-* [create users](scripts/create-users.sh)
 * [apply roles](scripts/apply-roles.sh)
+* [create users](scripts/create-users.sh)
 
 # Roles table
 | Роль           | Права роли                              | Группы пользователей                  |
